@@ -4,15 +4,15 @@
 
 本仓库是 DeepSeek Harness 的 Tauri 插件 workspace，采用 host half / client half 架构。
 
-- `packages/*/src/*.ts`：宿主侧服务实现。
-- `packages/*/src/index.ts`：宿主侧能力、工具、HTTP 路由和系统上下文。
-- `packages/*/src/types.ts`：宿主侧类型定义。
-- `packages/*/src/constants.ts`：宿主侧常量定义。
-- `packages/*/src/client/*.ts`：浏览器侧插件、slot 组件和 DOM 集成。
-- `packages/*/src/client/types.ts`：该插件客户端共享类型的唯一集中位置。
-- `packages/*/src/client/constants.ts`：该插件客户端共享常量的唯一集中位置。
-- `packages/*/src/client/icons.ts`：该插件客户端共享图标的唯一集中位置，图标只从 github.com/gravity-ui/icons 中获取。
-- `packages/*/src/client/styles.ts`：该插件客户端 css-render 样式树和样式挂载函数。
+- `src/*.ts`：宿主侧服务实现。
+- `src/index.ts`：宿主侧能力、工具、HTTP 路由和系统上下文。
+- `src/types.ts`：宿主侧类型定义。
+- `src/constants.ts`：宿主侧常量定义。
+- `src/client/*.ts`：浏览器侧插件、slot 组件和 DOM 集成。
+- `src/client/types.ts`：该插件客户端共享类型的唯一集中位置。
+- `src/client/constants.ts`：该插件客户端共享常量的唯一集中位置。
+- `src/client/icons.ts`：该插件客户端共享图标的唯一集中位置，图标只从 github.com/gravity-ui/icons 中获取。
+- `src/client/styles.ts`：该插件客户端 css-render 样式树和样式挂载函数。
 
 ## 基本技术约定
 
